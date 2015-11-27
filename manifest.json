@@ -1,0 +1,19 @@
+{
+  "name": "Unlock Elastix Book Appointment Button",
+  "manifest_version": 2,
+  "version": "1",
+  "description": "unlocks the hidden Appointment Plus book it now button in Elastix",
+ // "background_page": "background.html",
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery.min.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+  "permissions": [
+    "tabs"
+  ]
+}
