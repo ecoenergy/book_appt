@@ -1,4 +1,4 @@
-if (window.location.href =="https://192.168.3.20/index.php?menu=agent_console") {
+if (document.title =="Elastix") {
 
 $('#llamada_entrante_contacto_telefono').bind('DOMNodeInserted DOMNodeRemoved DOMSubtreeModified', function(event) {
     if (event.type =='DOMNodeInserted') {
