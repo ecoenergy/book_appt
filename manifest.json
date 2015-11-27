@@ -4,7 +4,7 @@
   "version": "1",
   "description": "unlocks the hidden Appointment Plus book it now button in Elastix",
   "browser_action": {
-    "name": "Manipulate DOM",
+    "name": "Manipulate DOM"
   },
   "content_scripts": [ {
     "js": [ "jquery.min.js", "background.js" ],
