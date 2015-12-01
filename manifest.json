@@ -2,7 +2,7 @@
   "name": "Unlock Elastix Book Appointment Button",
   "manifest_version": 2,
   "version": "1",
-  "description": "unlocks the hidden Appointment Plus book it now button in Elastix",
+  "description": "adds a book appointment button to the elastix agent console that is populated with incoming contact details and links to Appointment-Plus.",
   "browser_action": {
     "name": "Manipulate DOM"
   },
