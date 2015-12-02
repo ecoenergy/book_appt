@@ -9,9 +9,9 @@ $('#llamada_entrante_contacto_telefono').bind('DOMNodeInserted DOMNodeRemoved DO
 			    if (count ==1) 	{firstName = $(this).html();}
 			    if (count ==2) 	{lastName = $(this).html().toUpperCase();}
 			    if (count ==3) 	{address = $(this).html().toUpperCase();}
-			    if (count ==5) 	{city = $(this).html().toUpperCase();}
-			    if (count ==6) 	{province = $(this).html().toUpperCase();}
-			    if (count ==7) 	{postalCode = $(this).html().toUpperCase();}
+			    if (count ==4) 	{city = $(this).html().toUpperCase();}
+			    if (count ==5) 	{province = $(this).html().toUpperCase();}
+			    if (count ==6) 	{postalCode = $(this).html().toUpperCase();}
 
 			  // console.log(cellText,count,firstName);
 				});
